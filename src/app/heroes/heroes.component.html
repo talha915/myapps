@@ -1,0 +1,10 @@
+<p>
+  heroes works!
+</p>
+<a routerLink="home"> Go to Home</a>
+<input [(ngModel)]="name" type="text">
+{{name}}
+<div *ngFor= "let data of Data">
+  {{data.id}}
+  {{data.type}}
+</div>
